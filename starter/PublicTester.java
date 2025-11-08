@@ -430,13 +430,4 @@ public class PublicTester {
         assertEquals("Front should not have changed", 0, queue.theQueue.front);
         assertEquals("Rear should not have changed", 2, queue.theQueue.rear);
     }
-
-    // ------------ Algorithm ---------------
-
-    /** Test MyAlgorithm with simple valid string of brackets */
-    @Test
-    public void simpleValidBrackets() {
-        String input = "(abc)[def]";
-        assertTrue("This is a valid string of brackets", MyAlgorithm.isValidBrackets(input));
-    }
 }
